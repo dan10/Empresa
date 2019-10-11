@@ -50,3 +50,24 @@ Senha - ioasys123
 * Utilizar alguma ferramenta de Injeção de Dependência, Dagger, Koin e etc..
 * Utilizar Rx, LiveData, Coroutines.
 * Padrões de projetos
+
+### Dependências ###
+
+* LiveData: Para acompanhar as mudanças feitas pelo Retrofit
+* Retrofit: Para fazer os requests e receber notificações
+* Android Ktx: para simplicar o codigo
+* Courotines: Para fazer as requests do Retrofit
+* Converter-Gson: Para fazer a integração com o Retrofit
+* Material Design: Para usar o TextInputLayout junto com TextInputEditText
+* Picasso: Para baixar as imagens e carregar no ImageView
+
+### O que eu faria se tivesse mais tempo ###
+
+* Melhoraria o design
+* Usaria Apenas uma Atividade
+* E aprenderia a usar o Glide
+
+### Instruções para executar o Projeto ###
+
+* Construir através do Gradle
+* Ou usar o Android Studio 3.5 ou maior

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Empresas</string>
+    <string name="ioasys">Ioasys</string>
+    <string name="email">E-mail</string>
+    <string name="login_enter">Entrar</string>
+    <string name="login_password">Senha</string>
+    <string name="welcome_message">BEM-VINDO AO \nEMPRESAS</string>
+    <string name="placeholder_login">Lorem ipsum dolor sit amet, contetur adipiscing elit. Nunc accumsan.</string>
+    <string name="search_hint">Pesquisar</string>
+</resources>

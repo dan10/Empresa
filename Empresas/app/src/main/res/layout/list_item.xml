@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="99.5dp"
+    android:layout_marginStart="9.5dp"
+    android:layout_marginLeft="9.5dp"
+    android:layout_marginTop="18dp"
+    android:layout_marginEnd="19dp"
+    android:layout_marginRight="19dp"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/enterprise_image"
+        android:layout_width="105dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="11dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/img_e_1_lista" />
+
+    <TextView
+        android:id="@+id/tv_enterprise_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14.5dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#1a0e49"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/enterprise_image"
+        app:layout_constraintTop_toTopOf="@+id/enterprise_image"
+        tools:text="Empresa1" />
+
+    <TextView
+        android:id="@+id/tv_enterprise_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4.5dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#8d8c8c"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/tv_enterprise_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_enterprise_name"
+        tools:text="Negócio" />
+
+    <TextView
+        android:id="@+id/tv_enterprise_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1.5dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/warm_grey"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/tv_enterprise_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_enterprise_type"
+        tools:text="Brasil" />
+</androidx.constraintlayout.widget.ConstraintLayout>
